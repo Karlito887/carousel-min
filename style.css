@@ -1,0 +1,70 @@
+.containerSlider {
+    margin: 64px auto;
+    height: 360px;
+    width: 720px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.slider {
+    position: display;
+    height: 360px;
+    width: 720px;
+    overflow: hidden;
+}
+
+.slider img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all ease 1s;
+    /* opacity: 1; */
+}
+
+.left-right-btn i:hover {
+    color: rgb(6, 52, 180);
+    transition: all ease 1s;
+}
+
+.opacity0 {
+    opacity: 0;
+}
+
+.left-right-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .left-right-btn button {
+    position: absolute;
+} */
+
+
+.mini-btn-slider {
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    bottom: 8px;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-btn {
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    border: 2px solid rgb(69, 60, 150);
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filled-mini-btn {
+    background: royalblue;
+    transition: all ease 2s;
+
+}
